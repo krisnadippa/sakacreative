@@ -17,6 +17,33 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SAKA CREATIVE",
   description: "Premium Digital Creative Agency",
+  openGraph: {
+    title: "SAKA CREATIVE",
+    description: "Premium Digital Creative Agency",
+    url: "https://sakacreative.com",
+    siteName: "SAKA CREATIVE",
+    images: [
+      {
+        url: "/images/logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "SAKA CREATIVE Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SAKA CREATIVE",
+    description: "Premium Digital Creative Agency",
+    images: ["/images/logo.jpeg"],
+  },
+  icons: {
+    icon: "/images/logo.jpeg",
+    shortcut: "/images/logo.jpeg",
+    apple: "/images/logo.jpeg",
+  },
 };
 
 export default function RootLayout({
