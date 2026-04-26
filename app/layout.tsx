@@ -54,9 +54,10 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased overflow-x-hidden`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased overflow-x-hidden dark`}
+      style={{ colorScheme: 'dark' }}
     >
-      <body className="min-h-full flex flex-col bg-black overflow-x-hidden">
+      <body className="min-h-full flex flex-col bg-black text-white overflow-x-hidden">
         <SmoothScroll>{children}</SmoothScroll>
       </body>
     </html>
