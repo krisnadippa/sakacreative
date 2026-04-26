@@ -501,7 +501,7 @@ export default function EtherealBeamsHero() {
   return (
     <div className="relative min-h-screen w-full overflow-hidden bg-black">
       {/* Beams Background */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 pointer-events-none">
         <Beams
           beamWidth={2.5}
           beamHeight={18}

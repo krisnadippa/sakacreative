@@ -23,9 +23,9 @@ const logos = [
   },
   {
     id: "logo-8",
-    description: "Vercel",
-    image: "https://www.shadcnblocks.com/images/block/logos/vercel.svg",
-    className: "h-7 w-auto invert brightness-0 invert",
+    description: "Saka Creative",
+    image: "/images/logo.jpeg",
+    className: "h-7 w-auto",
   },
 
 ];

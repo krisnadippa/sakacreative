@@ -21,7 +21,7 @@ const iconConfigs = [
   { Icon: FaDocker, color: "#2496ED" },
   { Icon: FaNodeJs, color: "#339933" },
   { Icon: SiNextdotjs, color: "#000000" },
-  { Icon: SiVercel, color: "#000000" },
+  { Icon: null, img: "/images/logo.jpeg" },
   { Icon: SiRedux, color: "#764ABC" },
   { Icon: SiTypescript, color: "#3178C6" },
   { Icon: FaGithub, color: "#181717" },
@@ -48,7 +48,7 @@ export default function FeatureSection() {
           Build your idea
         </h1>
         <p className="text-white/60 mb-6 max-w-lg">
-          RUIXEN is a modern and responsive UI kit for React, Next.js, and Tailwind CSS.
+          SAKA CREATIVE is a modern and responsive digital studio specializing in premium experiences.
         </p>
 
         <div className="flex items-center gap-3">
