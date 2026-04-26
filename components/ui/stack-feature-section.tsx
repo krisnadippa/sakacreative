@@ -53,7 +53,7 @@ export default function FeatureSection() {
 
         <div className="flex items-center gap-3">
           <Button variant="default">
-            <Link href="https://ruixen.com" target="_blank"> Get Started</Link>
+            <Link href="https://sakacreative.com" target="_blank"> Get Started</Link>
           </Button>
           <Button variant="outline">Learn More</Button>
         </div>
