@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "SAKA CREATIVE",
     images: [
       {
-        url: "/images/logo.jpeg",
+        url: "/images/logotrans.png",
         width: 1200,
         height: 630,
         alt: "SAKA CREATIVE Logo",
@@ -37,12 +37,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "SAKA CREATIVE",
     description: "Premium Digital Creative Agency",
-    images: ["/images/logo.jpeg"],
+    images: ["/images/logotrans.png"],
   },
   icons: {
-    icon: "/images/logo.jpeg",
-    shortcut: "/images/logo.jpeg",
-    apple: "/images/logo.jpeg",
+    icon: "/images/logotrans.png",
+    shortcut: "/images/logotrans.png",
+    apple: "/images/logotrans.png",
   },
 };
 
